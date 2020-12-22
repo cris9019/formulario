@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="estilos.css">
+	<title>Registro</title>
+</head>
+<body>
+	<div class="contenedor">
+		<form action="" name="formulario" id="formulario" class="formulario">
+			
+			<div class="contenedor-inputs">
+				<input type="text" name="nombre" placeholder="Nombre" >
+				<input type="email" name="correo" placeholder="Correo" >
+			
+
+				<div class="sexo">
+					<input type="radio" name="sexo" id="hombre">
+					<label for="hombre" class="label-radio hombre">Hombre</label>
+
+					<input type="radio" name="sexo" id="mujer">
+					<label for="mujer" class="label-radio mujer">Mujer</label>
+
+				</div>
+				<div class="termino">
+					<input type="checkbox" name="termino" id="termino">
+					<label for="termino">Termino y condiciones</label>
+				</div>
+			
+				<ul class="error" id="error"></ul>
+			</div>
+				
+			<input type="submit" class="btn" value="Registrate">
+		</form>
+	</div>
+	<script src="javascript.js"></script>
+
+	
+</body>
+</html>
